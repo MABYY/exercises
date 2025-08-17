@@ -1,0 +1,5 @@
+numpy
+pandas
+overpy
+unidecode
+overpass
