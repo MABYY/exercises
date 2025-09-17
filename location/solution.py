@@ -21,6 +21,8 @@ def save_to_json(data, filename):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 if __name__ == "__main__":
+    print("__name__")
+    print(__name__)
     roadway = "I 95"
     places = get_roadway_places(roadway)
     save_to_json(places, roadway.replace(' ', '_')+"_places.json")
