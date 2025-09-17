@@ -7,4 +7,4 @@
 
 3 - Activate the virtual environment using the following command: source locationenv/bin/activate 
 
-4 - Go to folder called location and run the following command: python3 -m location.location --l "I 95" to extract geospatial data for roadway and nearby cities/towns within 500 meters of the roadway for a given roadway
+4 - Run the following command: python3 -m location --l "I 95" to extract geospatial data for roadway and nearby cities/towns within 500 meters of the roadway for a given roadway
